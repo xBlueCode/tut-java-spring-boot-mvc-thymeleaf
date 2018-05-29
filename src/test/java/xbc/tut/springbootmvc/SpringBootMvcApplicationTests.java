@@ -1,4 +1,4 @@
-package xbc.tut.tutjavaspringbootmvcthymeleaf;
+package xbc.tut.springbootmvc;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class TutJavaSpringBootMvcThymeleafApplicationTests {
+public class SpringBootMvcApplicationTests {
 
 	@Test
 	public void contextLoads() {

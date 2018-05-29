@@ -1,12 +1,12 @@
-package xbc.tut.tutjavaspringbootmvcthymeleaf;
+package xbc.tut.springbootmvc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TutJavaSpringBootMvcThymeleafApplication {
+public class SpringBootMvcApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TutJavaSpringBootMvcThymeleafApplication.class, args);
+		SpringApplication.run(SpringBootMvcApplication.class, args);
 	}
 }
