@@ -1,0 +1,32 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Example 1 - Displaying Model Attributes</title>
+</head>
+<body>
+
+<h2>Displaying Model Attributes</h2>
+
+<h3>Simple Attributes</h3>
+<p>Current time is <span th:text="${currentDate}" style="color: deepskyblue"></span></p>
+
+<h3>Collection Attributes</h3>
+<h4>Today's schedule</h4>
+<ol>
+  <li th:each="subject: ${subjects}" th:text="${subject.toString()}"></li>
+  <!--Equivalent-->
+  <!--
+  <li th:each="subject: ${subjects}">
+    <span th:text="${subject}"></span>
+  </li>
+  -->
+</ol>
+
+<a href="/">Back to main page</a>
+
+</body>
+</html>
